@@ -943,10 +943,10 @@ export const wordList = [
   'toktz-ket-xil',
   'hit',
   'waste',
-]
+];
 
 export const getRandomWords = (count: number) => {
-  const scrambled = wordList.sort(() => Math.random() - 0.5)
+  const scrambled = wordList.sort(() => Math.random() - 0.5);
 
-  return scrambled.slice(0, count)
-}
+  return scrambled.slice(0, count);
+};
